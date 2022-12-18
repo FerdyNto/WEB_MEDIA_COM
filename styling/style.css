@@ -43,6 +43,10 @@ a .fa-tiktok:hover {
     padding: 1rem 0 0 0;
 }
 
+#judulTentangKami {
+    margin: 0 0 3rem 0;
+}
+
 .img-hero {
     width: 550px;
 }
@@ -86,6 +90,32 @@ a .fa-tiktok:hover {
     padding: 0 0 10rem 0;
 }
 
+#fasilitasdanPrasarana {
+    padding: 0 0 5rem 0;
+}
+
+.card {
+    width: 15rem;
+}
+
+.card-reguler {
+    width: 500px;
+    box-shadow: .5px .5px 10px rgba(0, 0, 0, .1);
+    border-style: hidden;
+}
+
+.card-reguler>.card-body>ul {
+    list-style-type: none;
+    padding: 0;
+    color: #43474d;
+    font-weight: 400;
+}
+
+.text-footer-penutup {
+    text-align: center;
+    width: 100%;
+}
+
 @media screen and (max-width: 576px) {
     .container {
         width: 95%;
@@ -121,15 +151,66 @@ a .fa-tiktok:hover {
 
     #hero {
         padding: 20px 0 0 0;
-        margin: 0 0 200px 0;
+        margin: 0 0 50px 0;
+    }
+
+    #judulTentangKami {
+        margin: 0;
     }
 
     #paket-pelatihan {
         padding: 10px 0 0 0;
     }
 
+    .list-profil-lembaga {
+        padding: 0;
+    }
+
+    .latar-belakang {
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+
+    .latar-belakang>h3 {
+        text-align: center;
+    }
+
+    .visi {
+        padding: 0;
+        width: 100%;
+    }
+
+    .misi {
+        padding: 0;
+        width: 100%;
+    }
+
+    .body-tentang-kami {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #fasilitasdanPrasarana {
+        padding: 0 0 2rem 0;
+    }
+
+    .list-fasilitas,
+    .list-prasarana {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
     .card {
+        width: 9rem;
         margin: auto;
+    }
+
+    .card-reguler {
+        width: 24rem;
+        box-shadow: .5px .5px 10px rgba(0, 0, 0, .1);
+        border-style: hidden;
     }
 
     #content {
