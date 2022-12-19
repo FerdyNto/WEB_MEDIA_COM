@@ -2,38 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500&family=Russo+One&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS BOOSTSTRAP -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        rel="stylesheet" />
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
 
-    <link rel="stylesheet" href="../styling/style.css">
-    <link rel="stylesheet" href="../styling/style2.css">
-    <link rel="icon" href="../assets/image/img logo/LOGO MEDIACOM.ico">
+    <!-- CSS BOOSTSTRAP -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
 
-    <style>
-        h3 {
-            border-bottom-style: solid;
-            border-color: #061272;
-        }
-    </style>
-    <title>Fasilitas & Prasarana | Media Com Binjai</title>
+    <link rel="stylesheet" href="../styling/style.css">
+    <link rel="icon" href="../assets/image/img logo/LOGO MEDIACOM.ico" />
+    <title>Tentang Kami | Media Com Binjai</title>
 </head>
 
-<body style="font-family: 'Poppins', sans-serif;">
+<body style="font-family: 'Poppins', sans-serif">
 
     <button onclick="backToTop()" id="btn-back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
-
     <!-- Header -->
     <section id="header" class="sticky-lg-top sticky-sm-top">
         <nav class="navbar navbar-expand-lg bg-light bg-opacity-75 shadow-sm pt-lg-4"
@@ -47,18 +38,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTopNav">
-                    <ul class="navbar-nav fw-semibold text-sm-center center-xs-navbar">
+                    <ul class="navbar-nav fw-semibold text-sm-cente center-xs-navbar">
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="fasilitas.html">Fasilitas</a>
+                            <a class="nav-link" href="fasilitas.html">Fasilitas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
+                            <a class="nav-link" aria-current="page" href="tentang_kami.html">Tentang Kami</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="kategori_kelas.html" role="button"
+                            <a class="nav-link dropdown-toggle active" href="kategori_kelas.html" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Kelas
                             </a>
@@ -76,108 +67,51 @@
     </section>
     <!-- Akhir Header -->
 
-    <!-- Judul Fasilitas Dan Prasarana -->
-    <section id="fasilitasdanPrasarana">
-        <div class="container-fluid position-relative">
-            <img src="../assets/image/img carousel/Fasilitas dan Prasarana.png" alt="Fasilitas dan Prasarana"
-                class="img-fluid opacity-50">
-            <div class="position-absolute top-50 start-50 translate-middle text-center text-dark" style="width: 100%;">
-                <h2>Fasilitas & Prasarana</h2>
-            </div>
-        </div>
-    </section>
-    <!-- Akhir Judul Fasilitas Dan Prasarana -->
-
-    <!-- Fasilitas -->
-    <section id="Fasilitas">
+    <section id="list-kategori">
         <div class="container">
-            <div class="text-center mb-5">
-                <h3 class="pb-1">Fasilitas</h3>
-            </div>
-            <div
-                class="d-flex flex-lg-row flex-lg-wrap flex-sm-wrap justify-content-lg-evenly justify-content-sm-around list-fasilitas">
-                <!-- wifi -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/wifi-logo-13655.png" class="card-img-top" alt="wifi">
-                    <div class="card-body">
-                        <p class="card-text">Free Wifi</p>
-                    </div>
+
+            <div class="d-flex flex-sm-wrap justify-content-lg-evenly justify-content-sm-around mt-5">
+                <!-- Reguler -->
+                <div class="mb-3">
+                    <a href="kelas/kelas_reguler.html">
+                        <div class="card text-bg-dark">
+                            <img src="https://source.unsplash.com/500x500?Study" class="card-img" alt="study">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title fs-3" style="text-shadow: 3px 3px 5px black">Reguler / Privat</h5>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <!-- akhir Reguler -->
 
-                <!-- toolkit -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/Toolkit.png" class="card-img-top" alt="Toolkit">
-                    <div class="card-body">
-                        <p class="card-text">Toolkit</p>
-                    </div>
+                <!-- 1 Tahun -->
+                <div class="mb-3">
+                    <a href="kelas/kelas_satuTahun.html">
+                        <div class="card text-bg-dark">
+                            <img src="https://source.unsplash.com/500x500?academy" class="card-img" alt="study">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title fs-3" style="text-shadow: 3px 3px 5px black">Profesi 1 Tahun</h5>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <!-- akhir 1 Tahun -->
 
-                <!-- sertifikat -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/sertifikat.jpg" class="card-img-top" alt="sertifikat">
-                    <div class="card-body">
-                        <p class="card-text">Sertifikat Pelatihan</p>
-                    </div>
+                <!-- PKL -->
+                <div class="mb-3">
+                    <a href="kelas/paket_pkl.html">
+                        <div class="card text-bg-dark">
+                            <img src="https://source.unsplash.com/500x500?vocation school" class="card-img" alt="study">
+                            <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                <h5 class="card-title fs-3" style="text-shadow: 3px 3px 5px black">PRAKERIN</h5>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-
-                <!-- 1 pc 1 siswa -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/1 pc 1 siswa.jpeg" class="card-img-top" alt="pc">
-                    <div class="card-body">
-                        <p class="card-text">1 (Satu) PC - 1 (Satu) Siswa</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-    <!-- Akhir Fasilitas -->
-
-    <!-- Prasarana -->
-    <section id="prasarana">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h3 class="pb-1">Prasarana</h3>
-            </div>
-
-            <div
-                class="d-flex flex-lg-row flex-lg-wrap flex-sm-wrap justify-content-lg-evenly justify-content-sm-around list-prasarana">
-                <!-- ruang kelas -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/ruang kelas.jpeg" class="card-img-top" alt="Ruang Kelas">
-                    <div class="card-body">
-                        <p class="card-text">4 Ruang Kelas</p>
-                    </div>
-                </div>
-
-                <!-- sertifikat -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/PC2.jpeg" class="card-img-top" alt="Personal Computer">
-                    <div class="card-body">
-                        <p class="card-text">10 PC Untuk Praktek / Ruangan</p>
-                    </div>
-                </div>
-
-                <!-- ruang shalat -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/ruang sholat.jpg" class="card-img-top" alt="Ruang Sholat">
-                    <div class="card-body">
-                        <p class="card-text">Ruang Shalat</p>
-                    </div>
-                </div>
-
-                <!-- Kamar Mandi -->
-                <div class="card mb-5 border-light">
-                    <img src="../assets/image/img fasilitas/Toilet.png" class="card-img-top" alt="Toilet">
-                    <div class="card-body">
-                        <p class="card-text">Toilet</p>
-                    </div>
-                </div>
+                <!-- akhir PKL -->
             </div>
         </div>
     </section>
-    <!-- Akhir Prasarana -->
 
     <!-- Footer -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
